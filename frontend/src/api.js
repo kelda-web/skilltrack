@@ -1,7 +1,8 @@
 import axios from 'axios';
 
 const API = axios.create({
-    baseURL: "http://localhost:5000" // Unga backend server port 5000 la run aana idhu okay!
+    // Vercel live-la run aagumbodhu indha link-ah automatic-ah frontend use பண்ணிக்கும்
+    baseURL: "https://skilltrack-backend.onrender.com" 
 });
 
 export default API;
